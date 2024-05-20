@@ -6,15 +6,8 @@
     "axe/text-alternatives": [
       "default",
       {
-        "image-alt": "off"
+        "document-title": "off"
       }
-    ],
-    "axe/structure": [
-      "default",
-      {
-        "listitem": "off"
-      }
-    ],
-    "meta-viewport": "off"
+    ]
   }
 }
