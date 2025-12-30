@@ -6,29 +6,17 @@
     <title>Register</title>
 </head>
 <body>
-    <form action="/submit_registration" method="post">
-        <h1>Register</h1>
+    <form>
+       First Name: <input type="text" name="firstName"><br><br>
+       Last Name: <input type="text" name="lastName"><br><br>
+       Email: <input type="email" name="email"><br><br>
+       Gender<br>
+       <input type="radio" name="Gender">Male<br>
+       <input type="radio" name="Gender">Male<br>
+       <input type="radio" name="Gender">Others<br></br>
 
-        <label for="First name">First Name:</label><br>
-        <input type="text" id="firstname" name="firstname" required><br><br>
-
-        <label for="Last name">Last Name:</label><br>
-        <input type="text" id="lastname" name="lastname" required><br><br>
-
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="username" required><br><br>
-        
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-        
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password" required><br><br>
-
-        <label for="date of birth">Date of Birth:</label><br>
-        <input type="date" id="date of birth" name="DoB" required><br><br>
-
-        <input type="submit" value="Register">
-        <input type="reset" value="Reset">
+       Birthday: <input type="date"><br>
     </form>
+        
 </body>
 </html>
